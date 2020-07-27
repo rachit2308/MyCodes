@@ -2,7 +2,7 @@ count1=0 #alphabets
 count2=0 #numbers
 count3=0 #spaces
 
-file=input("Enter the text for counting = ")
+file=input("Enter the file name for counting = ")
 
 for i in file:
     if i.isalpha():
