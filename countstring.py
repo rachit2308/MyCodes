@@ -1,10 +1,11 @@
+file = open('C:\\Users\\91982\\Desktop\\open.txt','r')
+data = file.read()
+
 count1=0 #alphabets
 count2=0 #numbers
 count3=0 #spaces
 
-file=input("Enter the text for counting = ")
-
-for i in file:
+for i in data:
     if i.isalpha():
         count1=count1+1
     elif i.isdigit():
